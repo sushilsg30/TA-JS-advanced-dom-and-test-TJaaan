@@ -30,8 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1;
+     line-height: 1;
+     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 ol, ul {
     list-style: none;
@@ -58,6 +58,10 @@ p {
 .quotes{
     text-align: center;
 }
+blockquote{
+    font-size: 2rem;
+}
 .quote {
     border-bottom: 1px solid red;
+    margin-top: 2rem;
 }
