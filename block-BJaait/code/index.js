@@ -21,7 +21,6 @@ function createUI(data = dragData, root = ul) {
         let p = document.createElement('p');
 
         p.innerText = cardInfo.dragValue;
-        p.addEventListener('drag', )
         li.append(p);
         fragment.appendChild(li);
     });
